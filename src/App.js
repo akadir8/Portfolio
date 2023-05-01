@@ -4,11 +4,9 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="App text-center">
-      <Navbar/>
-     <h1>My App</h1>
-     <p>Welcome to my app!</p>
-     <Footer/>
+    <div className="text-center">
+      <Navbar />
+      <Footer />
     </div>
   );
 }

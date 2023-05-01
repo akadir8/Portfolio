@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-Navbar{
-  background: linear-gradient(to bottom, #2196F3, #0D47A1);
-  transition: background 0.5s ease;
+body{
+  background-image: linear-gradient(to right, #917FB3 30%, #87cefa);
 }
+
