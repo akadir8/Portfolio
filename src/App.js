@@ -1,9 +1,12 @@
+import Navbar from "./components/Navbar";
 
 
 function App() {
   return (
-    <div className="App">
-     <div className="text-center">Hello Abdulkadir Biçki</div>
+    <div className="App text-center">
+      <Navbar/>
+     <h1>My App</h1>
+     <p>Welcome to my app!</p>
     </div>
   );
 }
