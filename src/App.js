@@ -1,21 +1,22 @@
 import React from "react";
+//components
+import Banner from "./components/Banner";
+import Header from "./components/Header";
 import Navbar from "./components/Navbar";
+import About from "./components/About";
+import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import { HomePage } from "./components/HomePage";
-import { AboutPage } from "./components/AboutPage";
-import { ProjectsPage } from "./components/ProjectsPage";
-import { Communication } from "./components/Communication";
 
 function App() {
   return (
-    <div className="text-center">
-      <Navbar />
-      <div>
-        <HomePage/>
-        <AboutPage/>
-        <ProjectsPage/>
-        <Communication/>
-      </div>
+    <div className="bg-no-repeat bg-cover overflow-hidden">
+      <Header/>
+      <Banner/>
+      <Navbar/>
+      <About/>
+      <Contact/>
+
+     
       <Footer />
     </div>
   );
