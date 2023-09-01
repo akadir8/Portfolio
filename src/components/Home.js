@@ -27,14 +27,35 @@ function Home() {
         <div className="z-20">
           <h2 className="text-sm uppercase dark:text-gray-300 pb-3 tracking-[12px]">
             <TypeAnimation
-              sequence={["ReactJS Developer",2000]}
+              sequence={[
+                "ReactJS Developer",
+                2000,
+                "Web Developer",
+                2000,
+                "Full Stack Developer",
+                2000,
+              ]}
               speed={50}
-              deletionSpeed={50}
               className="text-gray-700"
               wrapper="span"
               repeat={Infinity}
             />
           </h2>
+          <h1 className="text-4xl text-indigo-900 dark:text-red-500 lg:text-6xl font-semibold px-8">
+            <TypeAnimation
+              sequence={[
+                "Hi,I'm Abdulkadir",
+                2000,
+                "This is my portfolio",
+                2000,
+                "From Ankara/Turkey"
+              ]}
+              speed={50}
+              className="text-gray-700"
+              wrapper="span"
+              repeat={Infinity}
+            />
+          </h1>
         </div>
       </div>
     </section>
