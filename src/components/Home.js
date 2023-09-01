@@ -16,7 +16,7 @@ function Home() {
           <div className="absolute border border-indigo-700 dark:border-[#ca3131] opacity-20 rounded-full h-[650px] w-[650px] mt-48 animate-pulse"></div>
           <div className="absolute border border-[#555555] rounded-full h-[800px] w-[800px] mt-48 animate-pulse"></div>
           <img
-            src="https://media.licdn.com/dms/image/D4D03AQHAo04NJptUDw/profile-displayphoto-shrink_800_800/0/1693217261578?e=1698883200&v=beta&t=P0lbXT9IjSQ7HvOaz3_4y4IDRJqSclNDMcoM4jrHuBc"
+            src="https://media.licdn.com/dms/image/D4D35AQFR-KzERwezwg/profile-framedphoto-shrink_800_800/0/1685969559157?e=1694163600&v=beta&t=tjuYCs940gBv8YdvEY3eSe9XzITzASpyqoQEBCLuIbA"
             width={"130px"}
             height={"130px"}
             className="rounded-full"
@@ -28,12 +28,12 @@ function Home() {
           <h2 className="text-sm uppercase dark:text-gray-300 pb-3 tracking-[12px]">
             <TypeAnimation
               sequence={[
-                "ReactJS Developer",
-                2000,
-                "Web Developer",
-                2000,
-                "Full Stack Developer",
-                2000,
+                "Backend Developer",
+                4000,
+                "Senior Software Engineer",
+                4000,
+                "Embedded Software Developer",
+                4000,
               ]}
               speed={50}
               className="text-gray-700"
@@ -44,11 +44,11 @@ function Home() {
           <h1 className="text-4xl text-indigo-900 dark:text-red-500 lg:text-6xl font-semibold px-8">
             <TypeAnimation
               sequence={[
-                "Hi,I'm Abdulkadir",
-                2000,
+                "Hi,I'm Hüsamettin",
+                4000,
                 "This is my portfolio",
-                2000,
-                "From Ankara/Turkey"
+                4000,
+                "From Ankara/Turkey",
               ]}
               speed={50}
               className="text-gray-700"
