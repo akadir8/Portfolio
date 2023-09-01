@@ -1,4 +1,4 @@
-
+import { TypeAnimation } from "react-type-animation";
 import React from "react";
 
 function Home() {
@@ -15,7 +15,26 @@ function Home() {
 
           <div className="absolute border border-indigo-700 dark:border-[#ca3131] opacity-20 rounded-full h-[650px] w-[650px] mt-48 animate-pulse"></div>
           <div className="absolute border border-[#555555] rounded-full h-[800px] w-[800px] mt-48 animate-pulse"></div>
-          <img src="https://media.licdn.com/dms/image/D4D03AQHAo04NJptUDw/profile-displayphoto-shrink_800_800/0/1693217261578?e=1698883200&v=beta&t=P0lbXT9IjSQ7HvOaz3_4y4IDRJqSclNDMcoM4jrHuBc" width={"130px"} height={"130px"} className="rounded-full" loading="lazy" style={{color:"transparent"}}/>
+          <img
+            src="https://media.licdn.com/dms/image/D4D03AQHAo04NJptUDw/profile-displayphoto-shrink_800_800/0/1693217261578?e=1698883200&v=beta&t=P0lbXT9IjSQ7HvOaz3_4y4IDRJqSclNDMcoM4jrHuBc"
+            width={"130px"}
+            height={"130px"}
+            className="rounded-full"
+            loading="lazy"
+            style={{ color: "transparent" }}
+          />
+        </div>
+        <div className="z-20">
+          <h2 className="text-sm uppercase dark:text-gray-300 pb-3 tracking-[12px]">
+            <TypeAnimation
+              sequence={["ReactJS Developer",2000]}
+              speed={50}
+              deletionSpeed={50}
+              className="text-gray-700"
+              wrapper="span"
+              repeat={Infinity}
+            />
+          </h2>
         </div>
       </div>
     </section>
