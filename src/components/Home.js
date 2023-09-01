@@ -1,5 +1,6 @@
-import { TypeAnimation } from "react-type-animation";
 import React from "react";
+import Image from "./assets/photo.JPG"
+import { TypeAnimation } from "react-type-animation";
 
 function Home() {
   return (
@@ -16,7 +17,7 @@ function Home() {
           <div className="absolute border border-indigo-700 dark:border-[#ca3131] opacity-20 rounded-full h-[650px] w-[650px] mt-48 animate-pulse"></div>
           <div className="absolute border border-[#555555] rounded-full h-[800px] w-[800px] mt-48 animate-pulse"></div>
           <img
-            src="https://media.licdn.com/dms/image/D4D35AQFR-KzERwezwg/profile-framedphoto-shrink_800_800/0/1685969559157?e=1694163600&v=beta&t=tjuYCs940gBv8YdvEY3eSe9XzITzASpyqoQEBCLuIbA"
+            src={Image}
             width={"130px"}
             height={"130px"}
             className="rounded-full"
@@ -28,7 +29,7 @@ function Home() {
           <h2 className="text-sm uppercase dark:text-gray-300 pb-3 tracking-[12px]">
             <TypeAnimation
               sequence={[
-                "Backend Developer",
+                "Senior Golang Backend Developer",
                 4000,
                 "Senior Software Engineer",
                 4000,
@@ -49,6 +50,7 @@ function Home() {
                 "This is my portfolio",
                 4000,
                 "From Ankara/Turkey",
+                4000,
               ]}
               speed={50}
               className="text-gray-700"
@@ -56,6 +58,14 @@ function Home() {
               repeat={Infinity}
             />
           </h1>
+          <div className="pt-6">
+            <a href="/#about">
+              <button className="heroButton text-[#626974] hover:text-black dark:text-gray-100 dark:hover:text-gray-500">About</button>
+            </a>
+            <a href="/#skills">
+              <button className="heroButton text-[#626974] hover:text-black dark:text-gray-100 dark:hover:text-gray-500">Skills</button>
+            </a>
+          </div>
         </div>
       </div>
     </section>
