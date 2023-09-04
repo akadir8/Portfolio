@@ -65,6 +65,7 @@ function Home() {
             <a href="/#skills">
               <button className="heroButton text-[#626974] hover:text-black dark:text-gray-100 dark:hover:text-gray-500">Skills</button>
             </a>
+            
           </div>
         </div>
       </div>
