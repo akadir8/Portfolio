@@ -1,10 +1,10 @@
 import React from "react";
-import Image from "./assets/photo.JPG"
+import Image from "./assets/photo.JPG";
 import { TypeAnimation } from "react-type-animation";
 
 function Home() {
   return (
-    <section>
+    <section id="section2" className="section">
       <div className="h-screen flex flex-col items-center justify-center text-center space-y-8 overflow-hidden">
         <div
           className="relative flex justify-center items-center"
@@ -60,13 +60,15 @@ function Home() {
           </h1>
           <div className="pt-6">
             <a href="/#about">
-              <button className="heroButton text-[#626974] hover:text-black dark:text-gray-100 dark:hover:text-gray-500">About</button>
+              <button className="heroButton text-[#626974] hover:text-black dark:text-gray-100 dark:hover:text-gray-500">
+                About
+              </button>
             </a>
             <a href="/#skills">
-              <button className="heroButton text-[#626974] hover:text-black dark:text-gray-100 dark:hover:text-gray-500">Skills</button>
+              <button className="heroButton text-[#626974] hover:text-black dark:text-gray-100 dark:hover:text-gray-500">
+                Skills
+              </button>
             </a>
-            
-            
           </div>
         </div>
       </div>

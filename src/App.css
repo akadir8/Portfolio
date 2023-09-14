@@ -1,0 +1,44 @@
+/* App.css */
+.App {
+    text-align: center;
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    padding: 20px;
+    color: white;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  .main {
+    padding: 20px;
+  }
+  
+  .section {
+    padding: 40px;
+    border: 1px solid #ccc;
+    margin: 20px;
+    height: 88vh;
+  }
+  
+  .section h2 {
+    margin-bottom: 10px;
+  }
